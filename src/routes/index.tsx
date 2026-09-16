@@ -10,6 +10,7 @@ import courseDiplomaYoga from "@/assets/course-diploma-yoga.webp";
 import courseDiplomaFoundations from "@/assets/course-diploma-foundations.webp";
 import courseMeditation from "@/assets/course-meditation.webp";
 import courseYogaKids from "@/assets/course-yoga-kids.webp";
+import meritCertificateImg from "@/assets/merit-certificate.webp";
 import newsYogaMeet from "@/assets/news-yoga-meet.webp";
 import newsYogaDay from "@/assets/news-yoga-day.webp";
 import newsAccreditation from "@/assets/news-accreditation.webp";
@@ -379,6 +380,35 @@ function Index() {
               </span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="certificate-heading" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-6xl">
+          <div className="mb-8 text-center sm:mb-10">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-courses-accent sm:text-base">
+              Merit Certificate
+            </p>
+            <h2 id="certificate-heading" className="font-serif text-4xl leading-tight text-courses-heading sm:text-5xl lg:text-6xl">
+              Recognised on the competition stage
+            </h2>
+            <p className="mx-auto mt-4 max-w-3xl text-base leading-7 text-courses-body sm:text-lg sm:leading-8">
+              Awarded at the All Assam Prize Money Yogasana Sports Championship, organised under the
+              Yoga Society of North East — a sample of the merit certificate our students compete for.
+            </p>
+          </div>
+
+          <figure className="mx-auto max-w-4xl overflow-hidden rounded-[1.25rem] bg-courses-card shadow-xl">
+            <img
+              src={meritCertificateImg}
+              alt="Merit certificate from the Yoga Society of North East for the All Assam Prize Money Yogasana Sports Championship"
+              className="w-full"
+              width={1080}
+              height={805}
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
         </div>
       </section>
 
