@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 
 import { Index } from "../index";
 
-export const Route = createFileRoute("/index")({
+export const Route = createFileRoute("/index/")({
   head: () => ({
     meta: [
       { title: "North East Yoga and Meditation Centre | Home" },
