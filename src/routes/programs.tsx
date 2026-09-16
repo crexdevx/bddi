@@ -46,6 +46,7 @@ import courseDiplomaYoga from "@/assets/course-diploma-yoga.webp";
 import courseDiplomaFoundations from "@/assets/course-diploma-foundations.webp";
 import courseMeditation from "@/assets/course-meditation.webp";
 import courseYogaKids from "@/assets/course-yoga-kids.webp";
+import meritCertificateImg from "@/assets/merit-certificate.webp";
 import logoImg from "@/assets/north-east-yoga-logo.webp";
 import meditationGalleryOne from "@/assets/gallery-meditation-1.webp";
 import meditationGalleryTwo from "@/assets/gallery-meditation-2.webp";
@@ -333,6 +334,35 @@ function ProgramsPage() {
             />
           ))}
       </div>
+
+      <section aria-labelledby="certificate-heading" className="px-4 py-14 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-6xl">
+          <div className="mb-8 text-center sm:mb-10">
+            <p className="mb-3 text-sm font-semibold uppercase tracking-[0.2em] text-course-accent sm:text-base">
+              Merit Certificate
+            </p>
+            <h2 id="certificate-heading" className="font-serif text-4xl leading-tight text-course-ink sm:text-5xl lg:text-6xl">
+              Recognised on the competition stage
+            </h2>
+            <p className="mx-auto mt-4 max-w-3xl text-base leading-7 text-course-body sm:text-lg sm:leading-8">
+              Awarded at the All Assam Prize Money Yogasana Sports Championship, organised under the
+              Yoga Society of North East — a sample of the merit certificate our students compete for.
+            </p>
+          </div>
+
+          <figure className="mx-auto max-w-4xl overflow-hidden rounded-[1.25rem] bg-course-surface shadow-xl">
+            <img
+              src={meritCertificateImg}
+              alt="Merit certificate from the Yoga Society of North East for the All Assam Prize Money Yogasana Sports Championship"
+              className="w-full"
+              width={1080}
+              height={805}
+              loading="lazy"
+              decoding="async"
+            />
+          </figure>
+        </div>
+      </section>
 
       <FaqSection faqs={courseFaqs} title="Course FAQs" />
 
