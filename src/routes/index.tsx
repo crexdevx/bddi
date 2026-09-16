@@ -10,7 +10,6 @@ import courseDiplomaYoga from "@/assets/course-diploma-yoga.webp";
 import courseDiplomaFoundations from "@/assets/course-diploma-foundations.webp";
 import courseMeditation from "@/assets/course-meditation.webp";
 import courseYogaKids from "@/assets/course-yoga-kids.webp";
-import meritCertificateImg from "@/assets/merit-certificate.webp";
 import newsYogaMeet from "@/assets/news-yoga-meet.webp";
 import newsYogaDay from "@/assets/news-yoga-day.webp";
 import newsAccreditation from "@/assets/news-accreditation.webp";
