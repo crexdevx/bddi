@@ -191,7 +191,7 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-function Index() {
+export function Index() {
   return (
     <main className="bg-about-canvas">
       <section
